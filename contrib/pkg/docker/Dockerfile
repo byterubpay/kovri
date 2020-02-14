@@ -27,9 +27,9 @@
 # THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 # Example:
-# $ docker build -t monero-project/kovri .
+# $ docker build -t byterubpay/kovri .
 # $ export KOVRI_PORT=$((9111 + RANDOM & 30777))
-# $ docker run -p ${KOVRI_PORT}:${KOVRI_PORT} --env KOVRI_PORT=${KOVRI_PORT} monero-project/kovri
+# $ docker run -p ${KOVRI_PORT}:${KOVRI_PORT} --env KOVRI_PORT=${KOVRI_PORT} byterubpay/kovri
 
 FROM alpine:3.7
 ENV KOVRI_HOST 0.0.0.0

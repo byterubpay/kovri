@@ -58,7 +58,7 @@ option(WITH_TESTS      "Build unit tests" OFF)
 option(WITH_FUZZ_TESTS "Build fuzz tests" OFF)
 option(WITH_COTIRE     "Enable cotire (compile time reducer) - precompiled header and single compilation unit builds" ${MSVC})
 # Verbosity enabled by default, but can be disabled from cli by adding -DCMAKE_VERBOSE_MAKEFILE=OFF
-# https://github.com/monero-project/kovri/pull/867#discussion_r184359361
+# https://github.com/byterubpay/kovri/pull/867#discussion_r184359361
 option(CMAKE_VERBOSE_MAKEFILE "Enable verbose build output" ON)
 
 set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake ${CMAKE_CURRENT_SOURCE_DIR}/cmake/cotire/CMake)
@@ -366,7 +366,7 @@ endif()
 if (MINGW)
   set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wa,-mbig-obj")
   # TODO(unassigned): remove once a better solution is found (we don't want to force optimization)
-  #   Referencing https://github.com/monero-project/meta/issues/238
+  #   Referencing https://github.com/byterubpay/meta/issues/238
   if (WITH_STATIC AND ARCH_WIDTH EQUAL "64")
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O2")
   endif()

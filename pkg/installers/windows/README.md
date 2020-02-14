@@ -29,7 +29,7 @@ Windows .exe files that can act as standalone installers for Kovri.
 
 The build steps in detail:
 
-1. Ensure that [Kovri](https://github.com/monero-project/kovri) is cloned and built (see building instructions for details)
+1. Ensure that [Kovri](https://github.com/byterubpay/kovri) is cloned and built (see building instructions for details)
 2. Install *Inno Setup*. You can get it from [here](http://www.jrsoftware.org/isdl.php)
 3. Start Inno Setup then load and compile either `Kovri64.iss` or `Kovri32.iss` (depending on your architecture) in the `pkg\installers\windows` directory (Inno Setup scripts plus related files are all in this directory). Optional: for a command-line build, run `ISCC.exe` in the Inno Setup Program Files directory
 4. The results i.e. the finished installers will be `KovriSetup64.exe` or `KovriSetup32.exe` in the repo's root `build` directory

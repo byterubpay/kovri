@@ -43,7 +43,7 @@ elseif(NOT MSVC)
   set_property(TARGET libminiupnpc-static APPEND_STRING PROPERTY COMPILE_FLAGS " -Wno-undef -Wno-unused-result -Wno-unused-value")
 endif()
 
-# https://github.com/monero-project/kovri/pull/865#discussion_r184370624
+# https://github.com/byterubpay/kovri/pull/865#discussion_r184370624
 set_property(TARGET libminiupnpc-static APPEND PROPERTY INTERFACE_COMPILE_DEFINITIONS MINIUPNP_STATICLIB)
 
 # Use #include <miniupnp/miniupnpc/miniupnpc.h>
