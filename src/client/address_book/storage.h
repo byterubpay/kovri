@@ -103,7 +103,7 @@ struct AddressBookDefaults {
   /// @notes A default publisher is used if no publishers file is available
   std::string GetDefaultPublisherURI() const {
     // TODO(unassigned): replace with ByteRub's b32 publisher service
-    return "https://downloads.getmonero.org/kovri/hosts.txt";
+    return "https://downloads.getbyterub.org/kovri/hosts.txt";
     // Below is only used for testing in-net download (this is *not* our default subscription)
     //return "http://udhdrtrcetjm5sxzskjyr5ztpeszydbh4dpl3pl4utgqqw2v4jna.b32.i2p/hosts.txt";
   }
