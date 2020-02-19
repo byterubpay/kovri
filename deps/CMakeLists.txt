@@ -26,7 +26,7 @@
 # STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
 # THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
-# Parts of this file are originally copyright (c) 2014-2018 The Monero Project
+# Parts of this file are originally copyright (c) 2014-2018 The ByteRub Project
 
 message(STATUS "Using in-tree miniupnpc")
 

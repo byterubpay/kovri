@@ -12,7 +12,7 @@
 [submodule "deps/miniupnp"]
 	path = deps/miniupnp
 	url = https://github.com/byterubpay/miniupnp
-	branch = monero
+	branch = byterub
 [submodule "cmake/cotire"]
 	path = cmake/cotire
 	url = https://github.com/sakra/cotire.git
